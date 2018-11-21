@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
+a=$(env)
 echo "Hi there guys"
-a= $(env)
-echo $a
+echo "$a"
